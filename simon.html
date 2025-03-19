@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon says</title>
+    <link rel="stylesheet" href="simon.css">
+</head>
+<body>
+    <div id="page">
+        <h1>SIMON SAYS GAME</h1>
+        <h2>Press any key to start</h2>
+        <h3>Current high score is:</h3>
+        <div class="btn-container">
+            <div class="line1">
+                <div class="btn red" type="button" id="red">1</div>
+                <div class="btn cyan" type="button" id="cyan">2</div>
+            </div>
+            <div class="line2">
+                <div class="btn green" type="button" id="green">3</div>
+                <div class="btn pink" type="button" id="pink">4</div>
+            </div>
+        </div>
+    </div>
+    <div id="rules">
+        <h1>Rules for the game</h1>
+        <ul>
+            <li>a random color will flash on screen u have to click it </li>
+            <li>when next color flashes remember and click the old one first and then the new one </li>
+            <li>if nothing flashes it means the previous color has flashed again</li>
+        </ul>
+    </div>
+
+    <script src="simon.js"></script>
+</body>
+</html>

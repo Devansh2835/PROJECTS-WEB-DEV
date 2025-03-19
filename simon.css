@@ -1,0 +1,41 @@
+#page{
+    text-align: center;
+    width: 70%;
+}
+li{
+    font-size: 25px;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 20%;
+    border: 10px black solid;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+}
+.cyan{
+    background-color: cyan;
+}
+.green{
+    background-color: greenyellow;
+}
+.pink{
+    background-color: hotpink;
+}
+.flash{
+    background-color: white;
+}
+.user{
+    background-color: black;
+}
+
